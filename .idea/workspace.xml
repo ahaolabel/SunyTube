@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4261468-2145-42de-8780-fe50ce7b06f9" name="更改" comment="项目初始化" />
+    <list default="true" id="a4261468-2145-42de-8780-fe50ce7b06f9" name="更改" comment="&amp;项目初始化">
+      <change afterPath="$PROJECT_DIR$/SunyTube-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SunyTube-api/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SunyTube-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SunyTube-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SunyTube-service/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
@@ -57,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750687493886</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&amp;项目初始化">
+      <created>1750688142732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750688142732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
+    <MESSAGE value="&amp;项目初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="&amp;项目初始化" />
   </component>
 </project>
