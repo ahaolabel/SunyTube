@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4261468-2145-42de-8780-fe50ce7b06f9" name="更改" comment="&amp;demo测试">
-      <change afterPath="$PROJECT_DIR$/SunyTube-api/src/main/java/com/sunytube/api/RESTfulApi.java" afterDir="false" />
+    <list default="true" id="a4261468-2145-42de-8780-fe50ce7b06f9" name="更改" comment="&amp;REST-demo &amp;&amp; 加解密工具">
+      <change afterPath="$PROJECT_DIR$/SunyTube-dao/src/main/java/com/sunytube/domain/JsonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SunyTube-dao/src/main/java/com/sunytube/domain/exception/ConditionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SunyTube-service/src/main/java/com/sunytube/service/config/JsonHttpMessageConverterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SunyTube-service/src/main/java/com/sunytube/service/handler/CommonGlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -67,15 +70,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SunyTube/SunyTube-api/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SunyTube/SunyTube-service/src/main/java/com/sunytube/service/util&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2149837&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SunyTube\SunyTube-service\src\main\java\com\sunytube\service\util" />
       <recent name="D:\SunyTube\SunyTube-api\src\main\resources" />
       <recent name="D:\SunyTube\src\main\resources" />
     </key>
@@ -89,7 +93,20 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.JsonHttpMessageConverterConfig">
+    <configuration name="JsonHttpMessageConverterConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sunytube.service.config.JsonHttpMessageConverterConfig" />
+      <module name="SunyTube-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sunytube.service.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SunyTubeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sunytube.SunyTubeApp" />
       <module name="SunyTube-api" />
@@ -123,8 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="应用程序.JsonHttpMessageConverterConfig" />
+      <item itemvalue="应用程序.SunyTubeApp" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.JsonHttpMessageConverterConfig" />
         <item itemvalue="应用程序.SunyTubeApp" />
       </list>
     </recent_temporary>
@@ -173,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750860385641</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&amp;REST-demo &amp;&amp; 加解密工具">
+      <created>1751032796977</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751032796977</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +220,7 @@
     <MESSAGE value="项目初始化" />
     <MESSAGE value="&amp;项目初始化" />
     <MESSAGE value="&amp;demo测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="&amp;demo测试" />
+    <MESSAGE value="&amp;REST-demo &amp;&amp; 加解密工具" />
+    <option name="LAST_COMMIT_MESSAGE" value="&amp;REST-demo &amp;&amp; 加解密工具" />
   </component>
 </project>
