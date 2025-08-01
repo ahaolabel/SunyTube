@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4261468-2145-42de-8780-fe50ce7b06f9" name="更改" comment="&amp;Json回复格式 &amp;&amp; 异常报错">
-      <change afterPath="$PROJECT_DIR$/SunyTube-api/src/main/java/com/sunytube/api/UserApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SunyTube-dao/src/main/java/com/sunytube/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SunyTube-dao/src/main/java/com/sunytube/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SunyTube-dao/src/main/java/com/sunytube/domain/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SunyTube-service/src/main/java/com/sunytube/service/UserService.java" afterDir="false" />
+    <list default="true" id="a4261468-2145-42de-8780-fe50ce7b06f9" name="更改" comment="&amp;用户注册实现">
+      <change afterPath="$PROJECT_DIR$/SunyTube-dao/src/main/java/com/sunytube/domain/constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SunyTube-dao/src/main/resources/mapper/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SunyTube-api/src/main/java/com/sunytube/api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/SunyTube-api/src/main/java/com/sunytube/api/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SunyTube-dao/src/main/java/com/sunytube/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/SunyTube-dao/src/main/java/com/sunytube/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SunyTube-service/src/main/java/com/sunytube/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SunyTube-service/src/main/java/com/sunytube/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
         <option value="FxmlFile" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -70,7 +71,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/wwwkkk&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SunyTube/SunyTube-dao/src/main/resources/mapper&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2149837&quot;,
@@ -79,6 +80,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SunyTube\SunyTube-dao\src\main\resources\mapper" />
       <recent name="D:\SunyTube\SunyTube-service\src\main\java\com\sunytube\service\util" />
       <recent name="D:\SunyTube\SunyTube-api\src\main\resources" />
       <recent name="D:\SunyTube\src\main\resources" />
@@ -94,6 +96,13 @@
     </option>
   </component>
   <component name="RunManager" selected="应用程序.JsonHttpMessageConverterConfig">
+    <configuration default="true" type="springBootConfigurationType" factoryName="Spring Boot">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="SunyTube" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JsonHttpMessageConverterConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sunytube.service.config.JsonHttpMessageConverterConfig" />
       <module name="SunyTube-service" />
@@ -129,13 +138,6 @@
     </configuration>
     <configuration default="true" type="Java Scratch">
       <shortenClasspath name="NONE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="springBootConfigurationType" factoryName="Spring Boot">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="SunyTube" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1751466500953</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&amp;用户信息相关实体类建立">
+      <created>1752241869947</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752241869947</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +238,8 @@
     <MESSAGE value="&amp;demo测试" />
     <MESSAGE value="&amp;REST-demo &amp;&amp; 加解密工具" />
     <MESSAGE value="&amp;Json回复格式 &amp;&amp; 异常报错" />
-    <option name="LAST_COMMIT_MESSAGE" value="&amp;Json回复格式 &amp;&amp; 异常报错" />
+    <MESSAGE value="&amp;用户信息相关实体类建立" />
+    <MESSAGE value="&amp;用户注册实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="&amp;用户注册实现" />
   </component>
 </project>
