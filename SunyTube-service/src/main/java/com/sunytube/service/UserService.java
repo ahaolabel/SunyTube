@@ -56,13 +56,18 @@ public class UserService {
     public User getUserByPhone(String phone) {
         return userDao.getUserByPhone(phone);
     }
+    public User getUserByPhoneOrEmail(String phoneOrEmail) {
+        return userDao.getUserByPhoneOrEmail(phoneOrEmail);
+    }
 
-    public String login(User user) {
-        String phone = user.getPhone();
-        if (StringUtils.isNullOrEmpty(phone)){
-            throw new ConditionException("手机号不能为空！");
+    public String login(User user) throws Exception {
+        String phone = user.getPhone() == null ? "" : user.getPhone();
+        String email = user.getEmail() == null ? "" : user.getEmail();
+        if (StringUtils.isNullOrEmpty(phone) && StringUtils.isNullOrEmpty(email)){
+            throw new ConditionException("参数异常");
         }
-        User dbUser = this.getUserByPhone(phone);
+        String phoneOrEmail = phone + email;
+        User dbUser = this.getUserByPhoneOrEmail(phoneOrEmail);
         if (dbUser == null){
             throw new ConditionException("当前用户不存在");
         }

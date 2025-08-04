@@ -11,4 +11,12 @@ public interface UserDao {
     User getUserByPhone(String phone);
 
     Integer addUserInfo(UserInfo userInfo);
+
+    User getUserById(Long id);
+
+    UserInfo getUserInfoByUserId(Long userId);
+
+    Integer updateUsers(User user);
+
+    User getUserByPhoneOrEmail(String phoneOrEmail);
 }

@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4261468-2145-42de-8780-fe50ce7b06f9" name="更改" comment="&amp;用户注册实现">
-      <change afterPath="$PROJECT_DIR$/SunyTube-service/src/main/java/com/sunytube/service/util/TokenUtil.java" afterDir="false" />
+    <list default="true" id="a4261468-2145-42de-8780-fe50ce7b06f9" name="更改" comment="&amp;用户登录接口实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SunyTube-api/src/main/java/com/sunytube/api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/SunyTube-api/src/main/java/com/sunytube/api/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SunyTube-dao/src/main/java/com/sunytube/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/SunyTube-dao/src/main/java/com/sunytube/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SunyTube-dao/src/main/resources/mapper/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SunyTube-dao/src/main/resources/mapper/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SunyTube-service/src/main/java/com/sunytube/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SunyTube-service/src/main/java/com/sunytube/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SunyTube-service/src/main/java/com/sunytube/service/util/TokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/SunyTube-service/src/main/java/com/sunytube/service/util/TokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SunyTube-service/target/classes/com/sunytube/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SunyTube-service/target/classes/com/sunytube/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1754062615998</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&amp;用户登录接口实现">
+      <created>1754324441865</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754324441865</updated>
+    </task>
+    <task id="LOCAL-00011" summary="&amp;用户登录接口实现">
+      <created>1754324470474</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754324470474</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +263,7 @@
     <MESSAGE value="&amp;Json回复格式 &amp;&amp; 异常报错" />
     <MESSAGE value="&amp;用户信息相关实体类建立" />
     <MESSAGE value="&amp;用户注册实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="&amp;用户注册实现" />
+    <MESSAGE value="&amp;用户登录接口实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="&amp;用户登录接口实现" />
   </component>
 </project>
