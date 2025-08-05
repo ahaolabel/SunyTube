@@ -1,0 +1,14 @@
+<changelist name="在变基之前未提交的更改_[更改]1" date="1754407457877" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[更改]1/shelved.patch" />
+  <option name="DESCRIPTION" value="在变基之前未提交的更改 [更改]" />
+  <binary>
+    <option name="BEFORE_PATH" value="SunyTube-dao/target/classes/com/sunytube/dao/UserDao.class" />
+    <option name="AFTER_PATH" value="SunyTube-dao/target/classes/com/sunytube/dao/UserDao.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[更改]1/UserDao.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="SunyTube-api/target/classes/com/sunytube/api/UserApi.class" />
+    <option name="AFTER_PATH" value="SunyTube-api/target/classes/com/sunytube/api/UserApi.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[更改]1/UserApi.class" />
+  </binary>
+</changelist>

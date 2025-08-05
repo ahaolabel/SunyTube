@@ -1,0 +1,14 @@
+<changelist name="在进行更新之前于_2025-08-05_23_23_取消提交了更改_[更改]" date="1754407430508" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025-08-05_23_23_取消提交了更改_[更改]/shelved.patch" />
+  <option name="DESCRIPTION" value="在进行更新之前于 2025-08-05 23:23 取消提交了更改 [更改]" />
+  <binary>
+    <option name="BEFORE_PATH" value="SunyTube-dao/target/classes/com/sunytube/dao/UserDao.class" />
+    <option name="AFTER_PATH" value="SunyTube-dao/target/classes/com/sunytube/dao/UserDao.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025-08-05_23_23_取消提交了更改_[更改]/UserDao.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="SunyTube-api/target/classes/com/sunytube/api/UserApi.class" />
+    <option name="AFTER_PATH" value="SunyTube-api/target/classes/com/sunytube/api/UserApi.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025-08-05_23_23_取消提交了更改_[更改]/UserApi.class" />
+  </binary>
+</changelist>
